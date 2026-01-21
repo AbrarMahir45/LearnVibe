@@ -40,12 +40,8 @@ unset(
             </div>
         <?php endif; ?>
 
-        <form method="POST"
-              action="../Controller/admin_add_student_validation.php"
-              class="edit-form"
-              novalidate>
+        <form method="POST" action="../Controller/admin_add_student_validation.php" class="edit-form" novalidate>
 
-            <!-- Full Name -->
             <div class="form-group">
                 <label class="form-label">Full Name *</label>
                 <input type="text" name="full_name" class="form-input"
@@ -55,7 +51,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Email -->
+           
             <div class="form-group">
                 <label class="form-label">Email *</label>
                 <input type="email" name="email" class="form-input"
@@ -65,7 +61,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Contact -->
+            
             <div class="form-group">
                 <label class="form-label">Contact Number *</label>
                 <input type="text" name="contact_number" class="form-input"
@@ -75,7 +71,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- University -->
+          
             <div class="form-group">
                 <label class="form-label">University Name *</label>
                 <input type="text" name="university_name" class="form-input"
@@ -85,7 +81,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Department -->
+           
             <div class="form-group">
                 <label class="form-label">Department *</label>
                 <input type="text" name="department" class="form-input"
@@ -95,7 +91,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Year -->
+            
             <div class="form-group">
                 <label class="form-label">Year *</label>
                 <select name="year" class="form-input">
@@ -110,7 +106,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Password -->
+           
             <div class="form-group">
                 <label class="form-label">Password *</label>
                 <input type="password" name="password" class="form-input">
@@ -119,7 +115,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Confirm Password -->
+       
             <div class="form-group">
                 <label class="form-label">Confirm Password *</label>
                 <input type="password" name="confirm_password" class="form-input">
@@ -128,7 +124,7 @@ unset(
                 <?php endif; ?>
             </div>
 
-            <!-- Buttons -->
+           
             <div class="button-container">
                 <button type="submit" name="add_student" class="save-button">
                     Add Student

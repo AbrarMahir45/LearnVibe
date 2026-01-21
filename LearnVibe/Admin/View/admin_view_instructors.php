@@ -38,7 +38,7 @@ if (!$result) {
 </head>
 <body>
 
-<!-- TOP BAR (reuse markup) -->
+
 <div class="top-bar">
     <h2>Admin Dashboard</h2>
     <div class="top-links">
